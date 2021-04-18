@@ -11,7 +11,7 @@ The Sqlite database is accessed trough Entity Framework Core using code first.
 
 The frontend is a React application that lists toys in the toy store and lets you add/edit/delete toys from the store.
 
-## To Setup and Run the Store
+## To Setup and Run the Project
 
 ### Prerequisites:
 
@@ -35,21 +35,27 @@ If you have .NET Core installed, use the 'dotnet --info' command to determine wh
 
 5. Press the Green arrow in the toolbar to start the backend.
 
+If prompted to Trust the SSL Certificate, click 'Yes' then click 'Yes' again in the subsequent dialog to install the SSL Certificate for localhost.
+
 The application will open in a new browser window and you will see the swagger documentation for the API.
 
 You can interact with the database through swagger.
+
+Close the browser to end execution of the backend.
 
 When running the frontend, leave the backend running so the frontend has something to communicate with.
 
 ## Running the Store Frontend
 
-1. Move to the client directory in a terminal window or Power Shell.
+1. Move to the client directory in a terminal window (or Power Shell).
 
 2. Enter 'npm i' to install all the dependent packages for the client application.
 
 3. After the node packages are installed, you can run the frontend by entering 'npm run start'.
 
 The React application will run in a browser window. Select a toy in the table to edit/delete it. Click the 'Add Toy' button to add a new toy.
+
+Press Ctrl-C in the terminal window (or Power Shell) to terminate the client application.
 
 ## Running the Unit Tests
 
